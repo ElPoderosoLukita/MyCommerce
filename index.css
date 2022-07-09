@@ -53,6 +53,10 @@ header a .facebook{
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(7deg) brightness(107%) contrast(101%);
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
 h2{
     text-align: center;
     margin-top: 60px;
@@ -75,4 +79,48 @@ h2{
     text-decoration: none;
     color: white;
     font-weight: 700;
+}
+
+
+.grid-images{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: 1fr;
+    gap: 15px;
+    margin: 0 auto;
+    margin-top: 65px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+/*Footer*/
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: var(--blue-saphire);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+footer .title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 15px;
+}
+footer .terminos{
+    color: white;
+    margin-right: 15px;
+    margin-left: 92px;
 }
