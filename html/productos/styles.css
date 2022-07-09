@@ -26,10 +26,11 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-header h1{
+header h1 a{
     color: white;
     padding-left: 15px;
     font-family: 700;
+    text-decoration: none;
 }
 
 header a .instagram{
