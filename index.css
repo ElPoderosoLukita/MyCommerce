@@ -3,11 +3,11 @@ https://lenguajecss.com/css/efectos/filtros-css/
 */
 
 :root{
-    --celeste: #b1f8f2;
-    --celadeon: #bcd39c;
-    --canary: #fffc99;
+    --blue-saphire: #28536B;
+    --rosy-brown: #C2948A;
+    --pewter-blue: #7ea8be;
     --nyanza: #eafdcf;
-    --gold-fusion: #8e8359;
+    --khaki-web: #bbb193;
 }
 *{
     margin: 0;
@@ -24,7 +24,7 @@ html{
 header{
     height: 3.5rem;
     /* background-color: var(--celadeon); */
-    background-color: #28536B;
+    background-color: var(--blue-saphire);
     display: flex;
     align-items: center;
     justify-content: space-between;
