@@ -50,11 +50,101 @@ header a .facebook{
     filter: invert(99%) sepia(1%) saturate(0%) hue-rotate(7deg) brightness(107%) contrast(101%);
 }
 
+
 /*MAIN*/
+
+
+main h2{
+    color: var(--blue-saphire);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.grid-images{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+.item p{
+    margin-top: -40px;
+    margin-left:40px;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+.item p span{
+    font-size: 1.6rem;
+    padding-left: 5px;
+    color: rgb(0, 131, 0);
+}
+.item .button{
+    width: 80px;
+    background-color: var(--blue-saphire);
+    height: 25px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.item .button:hover{
+    background-color: var(--pewter-blue);
+}
+.item .button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Alineación botones*/
+
+.item .button1{
+    margin-left: -115px;
+}
+.item .button2{
+    margin-left: -115px;
+}
+.item .button3{
+    margin-left: -85px;
+}
+.item .button4{
+    margin-left: -115px;
+}
+.item .button5{
+    margin-left: -106px;
+}
+.item .button6{
+    margin-left: -76px;
+}
+.item .button7{
+    margin-left: -95px;
+}
+.item .button8{
+    margin-left: -115px;
+}
+
+
+
 
 
 /*FOOTER*/
 footer{
+    position:fixed;
     height: 50px;
     width: 100%;
     background-color: var(--blue-saphire);
@@ -62,7 +152,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    bottom: 0;
 }
 footer .title{
     color: white;
